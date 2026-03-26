@@ -1,0 +1,13 @@
+name: fanal
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - jupyter
+  - numpy
+  - matplotlib
+  - scipy
+  - pandas
+  - pip
+  - pip:
+    - tables>=3.10.1

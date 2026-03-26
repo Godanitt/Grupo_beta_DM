@@ -1,0 +1,27 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts:
+- caption: Exercise notebooks
+  chapters:
+  - file: notebooks/fanal.ipynb
+  - file: notebooks/guide/fanal_selection.ipynb
+  - file: notebooks/guide/fanal_energy_resolution.ipynb
+  - file: notebooks/guide/fanal_bkg.ipynb
+  - file: notebooks/guide/fanal_bkg_uncertainties.ipynb
+  - file: notebooks/guide/fanal_signal_countexp.ipynb
+  - file: notebooks/guide/fanal_signal.ipynb
+  - file: notebooks/guide/fanal_data_access.ipynb
+
+- caption: Reference material
+  chapters:
+  - file: notebooks/guide/crib_pandas.ipynb
+  - file: notebooks/guide/crib_fit.ipynb
+
+- caption: Course structure
+  chapters:
+  - file: deployment
+  - file: notebooks/guide/guide_dynamics
+  - file: notebooks/guide/guide_presentation
